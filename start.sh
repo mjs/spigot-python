@@ -1,7 +1,7 @@
 #!/bin/sh
 
 DATA_DIR="${1:-$PWD/data}"
-MC_VERSION=1.20.1
+MC_VERSION=1.20.2
 CON_NAME=spigot
 
 if which podman &> /dev/null; then
